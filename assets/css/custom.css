@@ -1,0 +1,29 @@
+/* Custom Stylesheet */
+/**
+	*edited by: Kukuh MHT
+**/
+
+.subjudulsmall {
+	color: #9e9eab;
+	font-size: 13px;
+}
+
+.subjudulsmall-menu {
+	font-size: 13px;
+}
+
+.subjudul {
+	color: #90a4ae;
+	font-weight: 500;
+}
+
+/*=======Hover Effect Icon=========*/
+.imagehover:hover {
+-webkit-transform:scale(1.2);
+transform:scale(1.2);
+}
+.imagehover {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+/*=================================*/

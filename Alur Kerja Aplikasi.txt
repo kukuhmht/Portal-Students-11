@@ -1,0 +1,44 @@
+Hak Akses Akun:
+Admin
+Membuat Kelas
+	->Nama Siswa
+	->Jadwal Pelajaran
+	->Wali Kelas
+	->Struktur Organisasi
+	->
+Membuat Data Siswa
+
+
+1. Admin Kelas (KM)
+	->bisa melihat semua data modul khusus siswa
+	->bisa crud;
+		-profil kelas
+		-siswa
+		-struktur organisasi
+2. Seksi Absensi Kelas
+	->hanya bisa crud modul absensi
+	->mendata absensi setiap hari dan langsung di kirimkan ke BK setiap hari
+		*jika ada bukti surat, bisa menginputkan bukti foto surat tersebut
+	->melakukan rekapan absensi setiap seminggu sekali dan di kirimkan ke BK
+	->melakukan rekapan absensi per-semester dan mengirimkan kepada wali kelas
+3. Siswa
+	-hanya bisa melihat semua data modul siswa
+4. Wali Kelas
+	->hanya bisa melihat dan mengirimkan data absensi dan nilai
+	->menerima nilai rekapan dari setiap guru matapelajaran
+	->menerima rekapan absensi dari seksi absensi
+	->mengirimkan data rekapan absensi dan nilai kepada BK
+5. Guru (setiap matapelajaran)
+	->bisa crud modul tugas dan nilai
+	->bisa memberikan tugas kepada seluruh kelas (kelas bisa di tentukan)
+	->menginputkan nilai setiap siswa.
+	->mengirimkan rekapan nilai per-semester kepada wali kelas
+6. BK
+	->bisa crud modul absensi
+	->menerima absensi setiap hari yang di kirim oleh seksi absensi kelas.
+	->merekap absensi siswa setiap seminggu sekali.
+	->menerima nilai dari wali kelas (tidak bisa di crud)
+	->membandingkan nilai dan absensi setiap siswa.
+7. Kurikulum
+	->bisa membuat jadwal pelajaran sesuai dengan kelas.
+	->bisa menentukan wali kelas.

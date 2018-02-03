@@ -1,0 +1,84 @@
+<br/>
+<main> <!--style="background-image: url('<?php echo base_url(); ?>assets/images/background4.jpg');"-->
+<div class="container">
+<div class="row">
+	<!--siswa-->
+	<div class="row">
+		<a href="siswa_daftar">
+		<div class="col s3 m3 l3">
+		  <div class="card transparent">
+			<div class="card-image">
+			  <img class="responsive-img imagehover" src="<?php echo base_url(); ?>assets/images/profilkelas_md.png">
+			</div>
+			<center class="subjudulsmall-menu hide-on-med-and-up"> Siswa </center>
+			<center class="card-title hide-on-med-and-down">Siswa</center>
+		  </div>
+		</div>
+		</a>
+	<!--Absensi-->
+		<a href="absensi_daftar">
+		<div class="col s3 m3 l3">
+		  <div class="card transparent">
+			<div class="card-image">
+			  <img class="responsive-img imagehover" src="<?php echo base_url(); ?>assets/images/profilkelas_md.png">
+			</div>
+			<center class="subjudulsmall-menu hide-on-med-and-up"> Absensi </center>
+			<center class="card-title hide-on-med-and-down">Absensi</center>
+		  </div>
+		</div>
+		</a>
+	<!--Guru-->
+		<a href="guru_daftar">
+		<div class="col s3 m3 l3">
+		  <div class="card transparent">
+			<div class="card-image">
+			  <img class="responsive-img imagehover" src="<?php echo base_url(); ?>assets/images/profilkelas_md.png">
+			</div>
+			<center class="subjudulsmall-menu hide-on-med-and-up"> Guru </center>
+			<center class="card-title hide-on-med-and-down">Guru</center>
+		  </div>
+		</div>
+		</a>
+	</div>
+	
+	<!--Kurikulum-->
+	<div class="row">
+		<a href="kurikulum_daftar">
+		<div class="col s3 m3 l3">
+		  <div class="card transparent">
+			<div class="card-image">
+			  <img class="responsive-img imagehover" src="<?php echo base_url(); ?>assets/images/profilkelas_md.png">
+			</div>
+			<center class="subjudulsmall-menu hide-on-med-and-up"> Kurikulum </center>
+			<center class="card-title hide-on-med-and-down">Kurikulum</center>
+		  </div>
+		</div>
+		</a>
+	<!--BK-->
+		<a href="bk_daftar">
+		<div class="col s3 m3 l3">
+		  <div class="card transparent">
+			<div class="card-image">
+			  <img class="responsive-img imagehover" src="<?php echo base_url(); ?>assets/images/profilkelas_md.png">
+			</div>
+			<center class="subjudulsmall-menu hide-on-med-and-up"> BK </center>
+			<center class="card-title hide-on-med-and-down">BK</center>
+		  </div>
+		</div>
+		</a>
+	<!--Wali Kelas-->
+		<a href="walikelas_daftar">
+		<div class="col s3 m3 l3">
+		  <div class="card transparent">
+			<div class="card-image">
+			  <img class="responsive-img imagehover" src="<?php echo base_url(); ?>assets/images/profilkelas_md.png">
+			</div>
+			<center class="subjudulsmall-menu hide-on-med-and-up"> Wali Kelas </center>
+			<center class="card-title hide-on-med-and-down">Wali Kelas</center>
+		  </div>
+		</div>
+		</a>
+	</div>
+</div>	
+</div>	
+</main>

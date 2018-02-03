@@ -1,0 +1,13 @@
+<?php
+// Author: Kukuh MHT
+
+class Profilkelas_model extends CI_Model {
+
+	public function __construct()	{
+		$this->load->database();
+	}
+	
+	// Menampilkan data kelas
+	public function data_kelas() {
+		return $this->db->get('kelas');
+	}
